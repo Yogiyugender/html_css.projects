@@ -1,0 +1,246 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
+}
+#sub-nav{
+    /* border: 2px solid ; */
+    height: 50px;
+    width: 100%;
+    background-color: #222222;
+}
+#sub-nav section{
+    /* border:2px solid red; */
+    height: inherit;
+    width: 64%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Zjopow{
+    /* border: 2px solid yellow; */
+      height: 20px;
+}
+#list{
+    list-style: none;
+    display: flex;
+    width: 410px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #949494;
+}
+#list2{
+    list-style: none;
+    display: flex;
+    /* border: 2px solid blue; */
+    width: 330px;
+    font-size: 20px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #949494;
+}
+#list2 img{
+    /* border: 2px solid red; */
+    height: 32px;
+    
+}
+ #list2 svg{
+    /* border: 5px solid blue; */
+      height: 33px;
+      width: 30px;
+     fill: #949494;
+}
+#post{
+    /* border: 2px solid yellow; */
+    background-color:black;
+    /* height: 400px; */
+
+}
+#post div{
+    border: 2px solid;
+    width: 97%;
+    height: 500px;
+    margin-left: 3%;
+    background-image:linear-gradient( to right, #000 40%, transparent 58% ), url(./images/MLP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#post div nav{
+    /* border: 2px solid yellow; */
+    margin-top: 70px;
+    color: #fff;
+}
+#post div nav h1{
+    font-size: 45px;
+    font-weight: lighter;
+}
+#post div nav p{
+    font-size: 25px;
+}
+#post div nav button{
+    padding: 10px 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: inherit;
+    background-color: #0f79af;
+    color: #ffffff;
+    font-weight: bold;
+}
+#post2{
+     /* border: 2px solid yellow; */
+     background-color:black;
+}
+#post2 div{
+    border: 2px solid;
+    width: 97%;
+    height: 500px;
+    margin-left: 3%;
+    background-image:linear-gradient( to right, #000 40%, transparent 58% ), url(./images/TVOD_MLP_Right.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#post2 div nav{
+    /* border: 2px solid yellow; */
+    margin-top: 70px;
+    color: #fff;
+}
+#post2 div nav h1{
+    font-size: 44px;
+    font-weight: lighter;
+}
+#post2 div nav p{
+    font-size: 23px;
+}
+#post2 div nav button{
+    padding: 10px 100px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: inherit;
+    background-color: #0f79af;
+    color: #ffffff;
+    font-weight: bold;
+}
+#post3{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 650px;
+    margin-top: 10px;
+}
+#post3 #main{
+    /* border: 2px solid blue; */
+    height: 99%;
+    width: 90%;
+    /* margin-left: 5%; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#post3 #main div{
+    /* border: 2px solid green; */
+    width: 47%;
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+}
+#post3 #main div+div nav div {
+    /* border: 2px solid crimson;  */
+    width: 207px;
+    height: 155px;
+    display: inline-block;
+    flex: 1;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+   
+}
+#post3 #main div+div nav div:hover{
+  width: 210px;
+  height: 157px;
+  z-index: 1;
+}
+#post3 img{
+    height: 150px;
+    width: 203px;
+    display: flex;
+    justify-content: space-between;
+}
+#post3 #main #div1 h1{
+    font-size: 44px;
+    font-weight: 100;
+    padding-top: 35px;
+}
+#post3 #main #div1 p{
+    font-size: 24px;
+    font-weight: normal;
+}
+#post4{
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+    /* display: flex; */
+}
+#post4 div{
+    /* border: 2px solid green; */
+    width: 97%;
+    margin-left: 3%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    background-image:linear-gradient( to left, #000 40%, transparent 58% ),url(./images/MLP_Template_Image_Left.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#post4 div nav{
+    /* border: 2px solid yellow; */
+    margin-left: 50%;
+    padding-top:40px ;
+    color: #fff;
+    width: 800px;
+}
+#post4 div nav h1{
+    font-size: 44px;
+    font-weight: lighter;
+}
+#post4 div nav p{
+    font-size: 21px;
+}
+#post4 div nav button{
+    padding: 10px 100px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: inherit;
+    background-color: #0f79af;
+    color: #ffffff;
+    font-weight: bold;
+}
+#post5{
+    /* border: 2px solid red; */
+    height: 150px;
+    text-align: center;
+    background-color: #222222;
+    padding-top: 24px;
+}
+#post5 ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   color: #0f79af;
+}
+#post5 div{
+    /* border: 2px solid; */
+   margin-left: 550px;
+    width: 400px;
+}
+#post5 p{
+    color: #949494;
+}
